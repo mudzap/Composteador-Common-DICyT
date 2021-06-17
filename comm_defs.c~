@@ -1,0 +1,29 @@
+const Comm_Pack PACK_STOP_TX = {
+  .id = ID_STOP_TX,
+  .rtr = 1
+};
+
+const Comm_Pack PACK_START_TX = {
+  .id = ID_START_TX,
+  .rtr = 1
+};
+
+const Comm_Pack PACK_CALIBRATE = {
+  .id = ID_CALIBRATE,
+  .rtr = 1
+};
+
+const Comm_Pack PACK_SAMPLE_RATE = {
+  .id = ID_SAMPLE_RATE,
+  .rtr = 0
+};
+
+const Comm_Pack PACK_SENSOR_1 = {
+  .id = ID_SENSOR_1,
+  .rtr = 0
+};
+
+const Comm_Pack PACK_SENSOR_2 = {
+  .id = ID_SENSOR_2,
+  .rtr = 0
+};
